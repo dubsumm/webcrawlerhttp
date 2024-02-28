@@ -1,3 +1,10 @@
+const getURLsFromHTML = (htmlBody,baseURL) => {
+    const urls = []
+    return urls
+}
+
+
+
 const normalizeURL = (urlString) => {
 
     const urlObj = new URL(urlString)
@@ -10,5 +17,6 @@ const normalizeURL = (urlString) => {
 }
 
 module.exports = {
-    normalizeURL
+    normalizeURL,
+    getURLsFromHTML
 }

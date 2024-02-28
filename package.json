@@ -19,5 +19,8 @@
   "homepage": "https://github.com/dubsumm/webcrawlerhttp#readme",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "jsdom": "^24.0.0"
   }
 }
